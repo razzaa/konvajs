@@ -6,7 +6,11 @@ module.exports = {
       ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+        backgroundImage: {
+            'hero-lg': "url('/images/template1.png')",
+        },
+    },
   },
   variants: {
     extend: {},
